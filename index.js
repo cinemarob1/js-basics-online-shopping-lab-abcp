@@ -21,9 +21,8 @@ function addToCart(itemName) {
   
   //Print:
   console.log(itemName +' has been added to your cart.')
-  
+  console.log(cart);
   return(cart);
-  
 }
 
 function viewCart() {
@@ -39,7 +38,7 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
+  
 }
 
 function removeFromCart(item) {
