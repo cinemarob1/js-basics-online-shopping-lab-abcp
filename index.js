@@ -20,7 +20,7 @@ function addToCart(itemName) {
   cart.push(newItem);
   
   //Print:
-  console.log('${newItemName} has been added to your cart.')
+  console.log('${newItem} has been added to your cart.')
   
   return(cart);
   
