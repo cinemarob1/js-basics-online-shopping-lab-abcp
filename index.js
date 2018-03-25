@@ -9,11 +9,11 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(newItemName) {
+function addToCart(itemName) {
   
   //Create new item
   var newItem = {
-    thing: newItemName, 
+    itemName: [itemName], 
     price: Math.floor(Math.random()*100)
   };
   
