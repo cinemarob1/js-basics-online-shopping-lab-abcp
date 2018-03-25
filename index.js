@@ -13,8 +13,7 @@ function addToCart(itemName) {
   
   //Create new item
   var newItem = {
-    itemName: [itemName], 
-    price: Math.floor(Math.random()*100)
+    itemName: Math.floor(Math.random()*100)
   };
   
   //Add new item object to cart array
