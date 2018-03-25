@@ -12,9 +12,9 @@ function setCart(c) {
 function addToCart(itemName) {
   
   //Create new item
-  var newItem = {
-    [itemName]: Math.floor(Math.random()*100)
-  };
+  var newItem = {};
+  newItem['name'] = itemName;
+  newItem['price'] = Math.floor(Math.random()*100);
   
   //Add new item object to cart array
   cart.push(newItem);
