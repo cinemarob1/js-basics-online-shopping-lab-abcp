@@ -10,25 +10,23 @@ function setCart(c) {
 }
 
 function addToCart(itemName) {
-  
-  //Create new item
+  //Creates new item
   var newItem = {
     [itemName]: Math.floor(Math.random()*100)
   };
   
-  //Add new item object to cart array
+  //Adds new item object to cart array
   cart.push(newItem);
   
-  //Print:
+  //Prints:
   console.log(itemName +' has been added to your cart.')
-  console.log(cart);
   return(cart);
 }
 
 function viewCart() {
-  
   if(cart.length===0){
     console.log('Your shopping cart is empty.')
+    return;
   } 
   
   else if(cart.length===1){
@@ -42,7 +40,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  
 }
 
 function placeOrder(cardNumber) {
