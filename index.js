@@ -33,7 +33,7 @@ function viewCart() {
   } 
   
   else if(cart.length===1){
-    console.log('In your cart, you have ${cart[0].name} at ${cart[0].price}.')
+    console.log('In your cart, you have ' + cart.0.1 + ' at ' + cart.0.1 + ' .')
   }
   return;
 }
